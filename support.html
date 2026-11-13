@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — FaceAR Capture</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <span class="mark"><svg width="20" height="20" viewBox="0 0 20 20"><ellipse cx="10" cy="10" rx="7" ry="8.5" fill="none" stroke="#2dd4a7" stroke-width="1.6"/><circle cx="7" cy="8.5" r="1.1" fill="#2dd4a7"/><circle cx="13" cy="8.5" r="1.1" fill="#2dd4a7"/><path d="M7 13 Q10 15 13 13" fill="none" stroke="#2dd4a7" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+    <a href="index.html">FaceAR Capture</a>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </div>
+</header>
+<main>
+<h1>Support</h1>
+<p class="lead">FaceAR Capture turns an iPhone with a TrueDepth (Face&nbsp;ID)
+camera into a facial motion-capture device for Autodesk Maya.</p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>iPhone with a TrueDepth camera (any Face&nbsp;ID model), iOS 15 or later</li>
+  <li>For streaming: a computer running Autodesk Maya with the FaceAR
+  plug-in, on the same network as the phone (or reachable over USB / a
+  configured remote connection)</li>
+</ul>
+
+<h2>Common questions</h2>
+
+<div class="card">
+  <h3>The app says "No face"</h3>
+  <p>Point the front camera at a face at roughly arm's length, in reasonable
+  light. Face tracking uses the TrueDepth camera, so it only works with the
+  screen-side camera.</p>
+</div>
+
+<div class="card">
+  <h3>Maya cannot find the phone</h3>
+  <p>Both devices must be on the same network, and the app needs the Local
+  Network permission (iOS Settings → FaceAR → Local Network). The app's top
+  panel shows the address and port to enter in Maya if discovery is blocked
+  by the network — some routers isolate Wi-Fi clients.</p>
+</div>
+
+<div class="card">
+  <h3>USB connection</h3>
+  <p>On Windows, Apple Devices (or iTunes) must be installed so the Apple
+  Mobile Device Service is running. Plug in, unlock the phone, and tap
+  Trust.</p>
+</div>
+
+<div class="card">
+  <h3>Where are my recordings?</h3>
+  <p>Takes recorded on the phone are listed in the app and can be downloaded
+  from Maya, or exported from the phone via the Files app.</p>
+</div>
+
+<div class="card">
+  <h3>Calibration</h3>
+  <p>Record or stream after taking a neutral-face calibration in the app;
+  the calibration travels with every take, so nothing is lost if you
+  reprocess later.</p>
+</div>
+
+<h2>Contact</h2>
+<p>Report problems or ask questions on the
+<a href="https://github.com/kyndred/facear-site/issues">issue tracker</a>.</p>
+</main>
+<footer>© 2026 FaceAR Capture</footer>
+</body>
+</html>
